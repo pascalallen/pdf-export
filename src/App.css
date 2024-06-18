@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 0.375em 1em 0.4em;
+  height: 36px;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+}
+
+.grid-container {
+  height: calc(100vh - 50px);
+}
